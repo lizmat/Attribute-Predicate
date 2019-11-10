@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/lizmat/Attribute-Predicate.svg?branch=master)](https://travis-ci.org/lizmat/Attribute-Predicate)
-
 NAME
 ====
 
@@ -21,7 +19,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-This module adds a `is predicate` trait to `Attributes`. It is similar in function to the "predicate" option of Perl 5's `Moo` and `Moose` object systems.
+This module adds a `is predicate` trait to `Attributes`. It is similar in function to the "predicate" option of Perl's `Moo` and `Moose` object systems.
 
 If specified without any additional information, it will create a method with the name "has-{attribute.name}". If a specific string is specified, then it will create the method with that given name.
 
@@ -37,7 +35,7 @@ Source can be located at: https://github.com/lizmat/Attribute-Predicate . Commen
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

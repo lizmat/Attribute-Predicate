@@ -1,6 +1,6 @@
 use v6.c;
 
-module Attribute::Predicate:ver<0.0.1>:auth<cpan:ELIZABETH> {
+module Attribute::Predicate:ver<0.0.2>:auth<cpan:ELIZABETH> {
     multi sub trait_mod:<is>(Attribute:D \attr, :$predicate!) is export {
         if $predicate {
             my $name := $predicate ~~ Bool
@@ -34,7 +34,7 @@ Attribute::Predicate - add "is predicate" trait to Attributes
 =head1 DESCRIPTION
 
 This module adds a C<is predicate> trait to C<Attributes>.  It is similar
-in function to the "predicate" option of Perl 5's C<Moo> and C<Moose> object
+in function to the "predicate" option of Perl's C<Moo> and C<Moose> object
 systems.
 
 If specified without any additional information, it will create a method
@@ -53,7 +53,7 @@ Comments and Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
