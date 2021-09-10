@@ -1,6 +1,6 @@
 use v6.c;
 
-module Attribute::Predicate:ver<0.0.2>:auth<cpan:ELIZABETH> {
+module Attribute::Predicate:ver<0.0.3>:auth<zef:lizmat> {
     multi sub trait_mod:<is>(Attribute:D \attr, :$predicate!) is export {
         if $predicate {
             my $name := $predicate ~~ Bool
@@ -46,17 +46,17 @@ has a defined value.
 
 =head1 AUTHOR
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/Attribute-Predicate .
 Comments and Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018, 2019, 2021 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
 =end pod
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4

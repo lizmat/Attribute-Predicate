@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/lizmat/Attribute-Predicate/workflows/test/badge.svg)](https://github.com/lizmat/Attribute-Predicate/actions)
+
 NAME
 ====
 
@@ -28,14 +30,14 @@ The method in question will return a `Bool` indicating whether the attribute has
 AUTHOR
 ======
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/Attribute-Predicate . Comments and Pull Requests are welcome.
 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018, 2019, 2021 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
