@@ -17,15 +17,19 @@ Attribute::Predicate - add "is predicate" trait to Attributes
 
 =head1 SYNOPSIS
 
-  use Attribute::Predicate;
+=begin code :lang<raku>
 
-  class Foo {
-      has $.bar is predicate;         # adds method "has-bar"
-      has $.baz is predicate<bazzy>;  # adds method "bazzy"
-  }
+use Attribute::Predicate;
 
-  Foo.new(bar => 42).has-bar;    # True
-  Foo.new(bar => 42).bazzy;      # False
+class Foo {
+    has $.bar is predicate;         # adds method "has-bar"
+    has $.baz is predicate<bazzy>;  # adds method "bazzy"
+}
+
+Foo.new(bar => 42).has-bar;    # True
+Foo.new(bar => 42).bazzy;      # False
+
+=end code
 
 =head1 DESCRIPTION
 
@@ -47,9 +51,13 @@ Elizabeth Mattijsen <liz@raku.rocks>
 Source can be located at: https://github.com/lizmat/Attribute-Predicate .
 Comments and Pull Requests are welcome.
 
+If you like this module, or what I’m doing more generally, committing to a
+L<small sponsorship|https://github.com/sponsors/lizmat/>  would mean a great
+deal to me!
+
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018, 2019, 2021 Elizabeth Mattijsen
+Copyright 2018, 2019, 2021, 2024 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
