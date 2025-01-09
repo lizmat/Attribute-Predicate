@@ -1,6 +1,8 @@
 Revision history for Attribute-Predicate
 
 {{$NEXT}}
+    - Add CI badge for each OS
+    - Update copyright year
 
 0.0.5  2024-06-24T20:10:17+02:00
     - Modernize test file extension
